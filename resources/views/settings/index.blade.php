@@ -335,23 +335,7 @@
       <div class="box-body">
         <div class="container row-striped col-md-11">
 
-          <!-- row -->
-          <div class="row">
-            <div class="col-md-2">
-              <strong>{{ trans('admin/settings/general.snipe_version') }}</strong>
-            </div>
-            <div class="col-md-4">
-            {{ config('version.app_version') }}  build {{ config('version.build_version') }} ({{ config('version.hash_version') }})
-            </div>
-
-            <div class="col-md-2">
-              <strong>{{ trans('admin/settings/general.license') }}</strong>
-            </div>
-          <div class="col-md-4">
-              <a href="https://www.gnu.org/licenses/agpl-3.0.en.html" rel="noopener">AGPL3</a>
-           </div>
-          </div>
-          <!-- / row -->
+          
 
           <!-- row -->
           <div class="row">

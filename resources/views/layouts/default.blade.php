@@ -823,7 +823,7 @@
           @endif
           
 
-          <a target="_blank" href="https://matz.group" rel="noopener">MATZ AMS</a>, made with <i class="fa fa-heart" style="color: #a94442; font-size: 10px" aria-hidden="true"></i><span class="sr-only">love</span> by <a href="matz.group" rel="noopener">@matzgroup</a>.
+          <a target="_blank" href="https://matz.group" rel="noopener">MATZ AMS</a>, made with <i class="fa fa-heart" style="color: #a94442; font-size: 10px" aria-hidden="true"></i><span class="sr-only">love</span> by <a href="https://matz.group" rel="noopener">@matzgroup</a>.
       </footer>
 
 

@@ -290,9 +290,13 @@
             <div class="form-group purchase-range">
               <label for="purchase_start" class="col-md-3 control-label">{{ trans('general.purchase_date') }} Range</label>
               <div class="input-daterange input-group col-md-6" id="datepicker">
+              <!-- <span class="input-group-addon">From</span> -->
                 <input type="text" class="input-sm form-control" name="purchase_start" aria-label="purchase_start">
+                <!-- <span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span> -->
                 <span class="input-group-addon">to</span>
                 <input type="text" class="input-sm form-control" name="purchase_end" aria-label="purchase_end">
+                <span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                
               </div>
             </div>
 
@@ -303,6 +307,7 @@
                 <input type="text" class="input-sm form-control" name="created_start" aria-label="created_start">
                 <span class="input-group-addon">to</span>
                 <input type="text" class="input-sm form-control" name="created_end" aria-label="created_end">
+                <span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span>
               </div>
             </div>
 
@@ -313,6 +318,7 @@
                 <input type="text" class="input-sm form-control" name="expected_checkin_start" aria-label="expected_checkin_start">
                 <span class="input-group-addon">to</span>
                 <input type="text" class="input-sm form-control" name="expected_checkin_end" aria-label="expected_checkin_end">
+                <span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span>
               </div>
             </div>
 
@@ -323,6 +329,7 @@
                       <input type="text" class="input-sm form-control" name="last_audit_start" aria-label="last_audit_start">
                       <span class="input-group-addon">to</span>
                       <input type="text" class="input-sm form-control" name="last_audit_end" aria-label="last_audit_end">
+                      <span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span>
                   </div>
               </div>
 
@@ -333,6 +340,7 @@
                       <input type="text" class="input-sm form-control" name="next_audit_start" aria-label="nex_audit_start">
                       <span class="input-group-addon">to</span>
                       <input type="text" class="input-sm form-control" name="next_audit_end" aria-label="next_audit_end">
+                      <span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span>
                   </div>
               </div>
 
